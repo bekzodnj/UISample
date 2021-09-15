@@ -13,7 +13,7 @@ import {Card} from './components/Card';
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
   const backgroundStyle = {
-    backgroundColor: isDarkMode ? '#0f1c22' : '0f1c22',
+    backgroundColor: isDarkMode ? '#0f1c22' : '#0f1c22',
     height: '100%',
   };
 
