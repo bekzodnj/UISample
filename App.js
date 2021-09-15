@@ -8,14 +8,13 @@ import {
   View,
 } from 'react-native';
 
-import {Colors} from 'react-native/Libraries/NewAppScreen';
-
 import {Card} from './components/Card';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
   const backgroundStyle = {
-    backgroundColor: isDarkMode ? '#0f1c22' : Colors.lighter,
+    backgroundColor: isDarkMode ? '#0f1c22' : '0f1c22',
+    height: '100%',
   };
 
   return (
